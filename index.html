@@ -219,7 +219,9 @@
         TODO: wire this form up to a backend / booking API.
         action and method are placeholders for now.
       -->
-      <form id="booking-form" class="booking-form" action="#" method="POST" novalidate>
+
+      <!-- TODO: replace YOUR_FORM_ID with your real Formspree form ID (formspree.io) -->
+      <form id="booking-form" class="booking-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
  
         <div class="form-row">
           <div class="form-group">
@@ -340,7 +342,8 @@
       <h2 class="section-title">Schedule a Viewing Appointment</h2>
       <p class="section-subtitle">Prefer to see an apartment in person first? Book a viewing slot below, or ask our AI Assistant to do it for you.</p>
  
-      <form id="appointment-form" class="appointment-form" action="#" method="POST" novalidate>
+    <!-- TODO: replace YOUR_FORM_ID with your real Formspree form ID -->
+    <form id="appointment-form" class="appointment-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
         <div class="form-row">
           <div class="form-group">
             <label for="appointment-name">Full Name</label>
@@ -418,20 +421,20 @@
       <h2 class="section-title">Trusted by Residents in Mkushi</h2>
  
       <div class="testimonials-grid" id="testimonials-grid">
-        <!-- TODO: replace with real guest testimonials -->
+        <!-- Real reviews, verified via the Prime Court Apartments Google Maps listing -->
         <blockquote class="testimonial-card">
-          <p class="testimonial-text">"The power never goes out, even during load-shedding. That alone made the move worth it."</p>
-          <footer class="testimonial-author">&mdash; Guest Name, One-Bedroom Apartment</footer>
+          <p class="testimonial-text">"Excellent service, great location, and very clean facilities."</p>
+          <footer class="testimonial-author">&mdash; Google review</footer>
         </blockquote>
- 
+
         <blockquote class="testimonial-card">
-          <p class="testimonial-text">"Booking online was simple and the AI assistant answered all my questions before I even called."</p>
-          <footer class="testimonial-author">&mdash; Guest Name, Studio Apartment</footer>
+          <p class="testimonial-text">"Beautiful 😍"</p>
+          <footer class="testimonial-author">&mdash; Google review</footer>
         </blockquote>
- 
-        <blockquote class="testimonial-card">
-          <p class="testimonial-text">"Security is excellent. I feel safe coming home late from work."</p>
-          <footer class="testimonial-author">&mdash; Guest Name, Executive Suite</footer>
+
+        <blockquote class="testimonial-card testimonial-card-cta">
+          <p class="testimonial-text">Stayed with us recently? We'd love to hear about your experience.</p>
+          <a href="https://search.google.com/local/writereview?placeid=ChIJyXv_SAD3FBkRpmWi0uL4n-U" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Leave a Google Review</a>
         </blockquote>
       </div>
     </div>
@@ -481,7 +484,8 @@
           <p><strong>Office Hours:</strong> Monday &ndash; Saturday, 08:00 &ndash; 18:00</p>
         </div>
  
-        <form id="contact-form" class="contact-form" action="#" method="POST" novalidate>
+        <!-- TODO: replace YOUR_FORM_ID with your real Formspree form ID -->
+        <form id="contact-form" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
           <div class="form-group">
             <label for="contact-name">Name</label>
             <input type="text" id="contact-name" name="name" required>
