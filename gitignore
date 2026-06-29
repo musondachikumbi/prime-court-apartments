@@ -1,0 +1,18 @@
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies (if you ever add a build step / npm packages)
+node_modules/
+
+# Environment / secrets
+.env
+.env.local
+
+# Logs
+*.log
+
+# Local backups you might create while editing
+*.bak
